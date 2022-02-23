@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+        rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <title>Barber's Stop</title>
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="L2.png" alt="Logo"></a>
+            <h2><i>BARBER'S STOP</i> </h2>
+            <div class="nav-urls">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCkn4vbFbK3yTBxHlL97u6nQ" target="_blank">VIDEO</a></li>
+                    <li><a href="">TRENDING</a></li>
+                    <li><a href="tel: 620654409">CONTACT</a></li>
+                    <button id="log-btn" onclick="log()"><b> LOG IN</b> </button>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="content">
+            <h1>Welcome to <b>Barber's Stop</b></h1>
+            <p>Here, we all extend a warm welcome to you as a member of this community <br> To learn more about our
+                website, please click the icon below</p>
+            <a href="#" class="content-btn" onclick="info()">Click Here</a>
+        </div>
+    </section>
+
+    <section class="main">
+        <h2 style="color:  rgb(161, 127, 255); "> <b><i>Recommended</i></b></h2>
+        <div class="row">
+            <div class="con-col" onclick="article()">
+                <h4>Article</h4>
+                <p>" Click here to discover the most popular articles on barbers and salons on the Internet "
+                </p>
+            </div>
+            <div class="con-col" onclick="trend()">
+                <h4>Trending Section</h4>
+                <p>" Click here to learn about or become aware of current trends in haircuts, product selection, and other aspects of customer service in India and throughout the world "
+                </p>
+            </div>
+            <div class="con-col" onclick="video()">
+                <h4>Videos</h4>
+                <p>" Simply click here to watch the most recent hairstyling videos, as well as a variety of other relevant content videos "
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h3 style="color:  rgb(161, 127, 255); "> <b>About Us</b> </h3>
+        <p>Barber's Stop is a barbershop community here, and we all welcome you to join us. We operate this community
+            all across the world, so anyone from anywhere may apply and become a member of this incredible group. You
+            may also upload and share your work here. Please take a look at our website.</p>
+        <div class="icons">
+            <i class="icon-youtube" onclick="yout()"></i>
+            <i class="icon-instagram" onclick="inst()"></i>
+            <i class="icon-facebook" onclick="face()"></i>
+        </div>
+    </section>
+
+    <script src="index.js"> </script>
+
+</body>
+
+</html>
